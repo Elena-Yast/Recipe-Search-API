@@ -1,0 +1,35 @@
+ul {
+    list-style-type: none; }
+  
+    /* <!-- Bootstrap core CSS --> */
+   
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .recipe-list {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      
+      .recipe-row {
+        display: flex;
+        margin-bottom: 20px; /* Adjust as needed */
+      }
+      
+      .recipe-item {
+        flex: 1;
+        margin-right: 20px; /* Adjust as needed */
+        box-sizing: border-box;
+      }
+   
